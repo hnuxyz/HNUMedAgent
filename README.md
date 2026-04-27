@@ -20,7 +20,7 @@ https://github.com/user-attachments/assets/dadee47b-294e-4421-a72e-0def372cd740
 - [License](#-license)
 
 ## 📝 简介
-本智能体是笔者在完成硕士学位论文时所构建的第五章主体，本意是为了探索新一代智慧医疗技术与多模态视觉语言大模型。整个软件平台面向腹腔镜智能医疗手术机器人场景，平台功能包括一个基于Intern-S1-mini多模态视觉-语言大模型进行LoRA Plus微调的医疗场景交互大模型以及基于腹部CT配准的可视化应用。
+本智能体是笔者在完成硕士学位论文时所构建的第五章主体，本意是为了探索新一代智慧医疗技术与面向手术机器人的多模态视觉语言大模型。整个软件平台面向腹腔镜智能医疗手术机器人场景，平台功能包括一个基于Intern-S1-mini多模态视觉-语言大模型进行LoRA Plus微调的医疗场景交互大模型以及基于腹部CT配准的可视化应用。
 
 🤟 感谢上海AI Lab提供的A100算力支持！
 
@@ -49,7 +49,7 @@ pip install nibabel
 ## 🚀 微调与部署
 
 - 准备[SLAKE](https://www.med-vqa.com/slake/)、[MediScope](https://huggingface.co/datasets/AQ-MedAI/PulseMind)数据集，并转化为ms-swift需求的格式；
-- 下载EOIR腹部CT配准权重[![](https://img.shields.io/badge/google-link-red?logo=google)]()
+- 下载EOIR腹部CT配准权重[![](https://img.shields.io/badge/google-link-red?logo=google)](https://drive.google.com/file/d/16K-UmpS6ABKW0anFnHMb_HjCaRN7BJwU/view?usp=drive_link)
 - 启动微调：
 
 ### 第一阶段PEFT微调(使用SLAKE数据集)
