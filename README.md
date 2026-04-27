@@ -10,6 +10,8 @@
   <img src="https://github.com/hnuxyz/HNUMedAgent/blob/main/src/Fig/logo.png">
 </div>
 
+Uploading d194437e410a17547c93d637fded2d22_raw.mp4…
+
 ##  📖 目录
 
 - [简介](#-简介)
@@ -101,7 +103,9 @@ VS code运行Agent_UI.py
 - 交互：
 
 <div align="center">
-  <img src="https://github.com/hnuxyz/HNUMedAgent/blob/main/src/Fig/UI.png">
+  <img src="https://github.com/hnuxyz/HNUMedAgent/blob/main/src/Fig/UI.jp
+
+g">
 </div>
 
 
